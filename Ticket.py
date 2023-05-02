@@ -18,9 +18,10 @@ class Ticket:
         self.print()
     def print(self):
         print("Ticket ID:",self.id)
-        print("Ticket ID:",self.name)
-        print("Ticket ID:",self.email)
-        print("Ticket ID:",self.status)
+        print("Staff ID:",self.staff_id) 
+        print("Staff Name:",self.name)
+        print("Staff Email:",self.email)
+        print("Ticket Status:",self.status)
         print("Ticket ID:",self.desc)
         print("Ticket Responce",self.responce)
 
